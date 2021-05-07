@@ -48,13 +48,13 @@ class Main {
       return "the word has both front and back vowels";
     }
     else if (backCounter > 0) {
-      return "the word has only back vowels";
+      return "the word has only back vowels\n";
     }
     else if (frontCounter > 0) {
-      return "the word has only front vowels";
+      return "the word has only front vowels\n";
     }
     else{
-      return "the inputted word has no vowels";
+      return "the inputted word has no vowels\n";
     } 
     
   }
