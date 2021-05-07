@@ -45,7 +45,7 @@ class Main {
     // outputs will communicate the result of the function
     //   with the user
     if ((backCounter > 0) && (frontCounter > 0)){
-      return "the word has both front and back vowels";
+      return "the word has both front and back vowels\n";
     }
     else if (backCounter > 0) {
       return "the word has only back vowels\n";
